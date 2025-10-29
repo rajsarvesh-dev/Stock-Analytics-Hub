@@ -17,6 +17,11 @@ Built with **HTML, CSS, and JavaScript**, it visualizes market trends through dy
 
 ---
 
+## 🌐 Live Demo  
+👉 [View Project Here](https://rajsarvesh-dev.github.io/Stock-Analytics-Hub/)
+
+---
+
 ## 🧠 Tech Stack
 - **Frontend:** HTML, CSS, JavaScript (ES6)  
 - **API:** Alpha Vantage  
@@ -27,4 +32,4 @@ Built with **HTML, CSS, and JavaScript**, it visualizes market trends through dy
 ## ⚙️ How to Run
 1. Clone this repository  
    ```bash
-   git clone https://github.com/<rajsarvesh-dev>/<stock-analytics-hub>.git
+   git clone https://github.com/rajsarvesh-dev/Stock-Analytics-Hub.git
