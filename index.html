@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stock Analytics hub</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <link rel="stylesheet" href="RTST.css">
+</head>
+
+<body>
+  <header class="glass-header">
+    <h1>Stock Analytics Hub</h1>
+
+    <div class="search-container">
+      <input type="text" id="symbol" placeholder="Search stock (e.g. AAPL, RELIANCE.BSE)">
+      <button id="trackBtn">Track</button>
+    </div>
+
+    <div class="stock-ticker-bg">
+      <div class="ticker-text">📈 TSLA +2.4% AAPL +1.2% AMZN -0.8% GOOGL +3.1% MSFT +0.5% </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="stock-card" class="card hidden">
+      <h2 id="stock-name">Stock Details</h2>
+
+      <div class="stock-metrics">
+      <div class="metric-block">
+          <div class="metric-title">💰 Current Price</div>
+          <div class="metric-value" id="current-price">--</div>
+        </div>
+
+        <div class="metric-block">
+          <div class="metric-title">📈 High</div>
+          <div class="metric-value" id="high">--</div>
+        </div>
+
+        <div class="metric-block">
+          <div class="metric-title">📉 Low</div>
+          <div class="metric-value" id="low">--</div>
+        </div>
+
+        <div class="metric-block">
+          <div class="metric-title">🕒 Open</div>
+          <div class="metric-value" id="open">--</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="chart-section" class="card hidden">
+      <h2>📉 Analytical Charts</h2>
+      <div class="chart-container">
+        <canvas id="chart1"></canvas>
+        <canvas id="chart2"></canvas>
+        <canvas id="chart3"></canvas>
+        <canvas id="chart4"></canvas>
+        <canvas id="chart5"></canvas>
+      </div>
+    </section>
+    <section id="overview-box" class="dashboard-box">
+      <h2>🔎 Overview</h2>
+      <p>
+        Track real-time stock performance with interactive visual analytics, moving averages, and historical charts.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with Alpha Vantage API & Chart.js</p>
+    <p>- raj sarvesh</p>
+  </footer>
+  <script src="RTST.js"></script>
+</body>
+</html>
