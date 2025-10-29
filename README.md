@@ -27,4 +27,4 @@ Built with **HTML, CSS, and JavaScript**, it visualizes market trends through dy
 ## ⚙️ How to Run
 1. Clone this repository  
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
+   git clone https://github.com/<rajsarvesh-dev>/<>.git
